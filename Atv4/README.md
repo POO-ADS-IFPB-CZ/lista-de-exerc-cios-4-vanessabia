@@ -27,7 +27,3 @@ Em hierarquias de herança, quando um objeto de uma subclasse é criado, o const
 Se a chamada ao construtor da superclasse não for feita explicitamente com `super()`, o compilador automaticamente tentará chamar o construtor padrão (sem parâmetros). Se esse construtor não existir, ocorrerá erro de compilação.
 
 **Motivo:** A superclasse define parte do estado do objeto, e essa parte precisa estar completamente inicializada antes que a subclasse possa adicionar sua própria lógica de inicialização.
-
----
-
-As questões 4 e 5 envolvem código e serão respondidas a seguir.
